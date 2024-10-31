@@ -1,0 +1,25 @@
+.btn {
+    background-color: #16abc2;
+    padding: 5px;
+    border: 1px solid #1398ac;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.wrapper {
+    border: 1px solid rgb(180, 174, 174);
+    margin-top: 15px;
+    width: 350px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.field {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 2s;
+}
+
+.field.expanded {
+    max-height: 500px;
+}
